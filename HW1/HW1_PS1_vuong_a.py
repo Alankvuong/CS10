@@ -15,8 +15,8 @@ monthlyPayment = (loanAmount * monthlyInterestRate) / (1-1 / ( (1 + monthlyInter
 totalPayment = monthlyPayment * numYears * 12
 
 # formatting decimal numbers with 2 decimal points and commas
-monthlyPayment = format(monthlyPayment, ',.2f')
-totalPayment = format(totalPayment, ',.2f')
+monthlyPayment = '{:,.2f}'.format(monthlyPayment)
+totalPayment = '{:,.2f}'.format(totalPayment)
 
 #Output
 print("\nThe monthly payment is " + str(monthlyPayment))		# typecasting float to string
