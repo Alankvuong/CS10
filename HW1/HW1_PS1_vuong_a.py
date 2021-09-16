@@ -23,7 +23,7 @@ print("\nThe monthly payment is " + str(monthlyPayment))		# typecasting float to
 print("The total payment is " + str(totalPayment))			# type casting float to string
 
 #ask user to stop program
-input('\nPress enter key to quit')
+input('\nPress enter key to quit\n')
 
 ## Output (5 Test Runs)
 ## Test Run 1
