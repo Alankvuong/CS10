@@ -14,7 +14,7 @@ print("The profit made from this amount: " + '{:,.2f}'.format(profit))
 #ask user to quit program
 input('\n\nPress the enter key to quit\n\n')
 
-##Test run 1
+##Test run 1 for Q5
 ##Enter the projected total sales: 1250.00 
 ##The profit made from this amount: 300.00
 ##
@@ -22,7 +22,7 @@ input('\n\nPress the enter key to quit\n\n')
 ##Press the enter key to quit
 ##
 ##
-#Test run 2 for Q2
+#Test run 2 for Q5
 ##Enter the projected total sales: 2200.00
 ##The profit made from this amount: 528.00
 ##
@@ -30,7 +30,7 @@ input('\n\nPress the enter key to quit\n\n')
 ##Press the enter key to quit
 ##
 ##
-#Test run 3 for Q3
+#Test run 3 for Q5
 ##Enter the projected total sales: 3420.00
 ##The profit made from this amount: 820.80
 ##

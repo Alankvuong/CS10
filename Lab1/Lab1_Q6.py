@@ -13,7 +13,7 @@ FLOUR_REQUIRED = 2.75
 
 #Calculations of sugar, butter, and flour needed
 sugarNeeded = (numCookies / 48) * SUGAR_REQUIRED 
-butterNeeded = float((numCookies / 48) * BUTTER_REQUIRED)
+butterNeeded = (numCookies / 48) * BUTTER_REQUIRED
 flourNeeded = (numCookies / 48) * FLOUR_REQUIRED
 
 #User output
@@ -25,7 +25,7 @@ print(format(flourNeeded, '.2f') + " cups of flour")
 #ask user to quit program
 input('\n\nPress the enter key to quit\n\n')
 
-##Test run 1 for Q2
+##Test run 1 for Q6
 ##Enter the number of cookies: 56
 ##
 ##To make 56.0 cookies, you will need:
@@ -37,7 +37,7 @@ input('\n\nPress the enter key to quit\n\n')
 ##Press the enter key to quit
 ##
 ##
-#Test run 2 for Q2
+#Test run 2 for Q6
 ##Enter the number of cookies: 48
 ##
 ##To make 48.0 cookies, you will need:
@@ -49,7 +49,7 @@ input('\n\nPress the enter key to quit\n\n')
 ##Press the enter key to quit
 ##
 ##
-#Test run 3 for Q2
+#Test run 3 for Q6
 ##Enter the number of cookies: 128
 ##
 ##To make 128.0 cookies, you will need:

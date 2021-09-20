@@ -20,7 +20,7 @@ print("The volume is", volume)
 #ask user to quit program
 input('\n\nPress the enter key to quit\n\n')
 
-##Test run 1
+##Test run 1 for Q4
 ##Enter the radius of a cylinder: 5.5
 ##Enter the length of a cylinder: 12
 ##The area is 95.01525
@@ -30,7 +30,7 @@ input('\n\nPress the enter key to quit\n\n')
 ##Press the enter key to quit
 ##
 ##
-#Test run 2 for Q1
+#Test run 2 for Q4
 ##Enter the radius of a cylinder: 4.2
 ##Enter the length of a cylinder: 15 
 ##The area is 55.40724
@@ -40,7 +40,7 @@ input('\n\nPress the enter key to quit\n\n')
 ##Press the enter key to quit
 ##
 ##
-#Test run 3 for Q1
+#Test run 3 for Q4
 ##Enter the radius of a cylinder: 6.5
 ##Enter the length of a cylinder: 18
 ##The area is 132.70725
