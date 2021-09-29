@@ -11,13 +11,6 @@ purchasePrice = float(input("Enter Purchase price : "))
 sellingPrice = float(input("Enter selling price : "))
 commission = float(input("Enter commission : "))
 
-# setting all calculation storing variables to float
-stockBuyingTotal = float
-commissionPaidPurchase = float
-stockSellingTotal = float
-commissionPaidSale = float
-amountProfitLoss = float
-
 #Processing/Calculations
 #1) Amount paid for stock: (number of shares bought * purchase price)
 stockBuyingTotal = numShares * purchasePrice		# The total amount paid when buying stocks

@@ -1,5 +1,5 @@
+#Lab 1 Question 7
 #Alan Vuong
-
 #Description: This program asks the user to enter a 4 digit number and displays the number in reverse order 
 
 #input data by user
@@ -24,7 +24,7 @@ print(firstDigit)
 #Promps user to exit
 input('\n\nPress the enter key to quit\n\n')
 
-##Test run 1
+##Test run 1 for Q7
 ##Enter an integer: 3125
 ##5
 ##2
