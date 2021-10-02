@@ -36,5 +36,96 @@ while(userInput != -999):
     else:
         print("Sorry no match\n")
 
-    userInput = int(input("Enter your lottery pick (2 digits) or -999 to quit:"))           # asks user to input again
+    userInput = int(input("Enter your lottery pick ( 2 digits) or -999 to quit: "))           # asks user to input again
 
+
+## Test Outputs (5 Test Runs)
+## Test Run 1
+## Enter your lottery pick (2 digits) or -999 to quit: 44
+## Match one digit: You win $1,000
+##
+## Enter your lottery pick ( 2 digits) or -999 to quit: 23
+## Sorry no match
+##
+## Enter your lottery pick ( 2 digits) or -999 to quit: 68
+## Sorry no match
+##
+## Enter your lottery pick ( 2 digits) or -999 to quit: 12
+## Sorry no match
+##
+## Enter your lottery pick ( 2 digits) or -999 to quit: 45
+## Sorry no match
+##
+## Enter your lottery pick ( 2 digits) or -999 to quit: -999
+
+## Test Run 2
+## Enter your lottery pick ( 2 digits) or -999 to quit: 65
+## Match one digit: You win $1,000
+##
+## Enter your lottery pick ( 2 digits) or -999 to quit: 80
+## Sorry no match
+##
+## Enter your lottery pick ( 2 digits) or -999 to quit: 41
+## Match one digit: You win $1,000
+##
+## Enter your lottery pick ( 2 digits) or -999 to quit: 34
+## Exact match: You win $10,000!
+##
+## Enter your lottery pick ( 2 digits) or -999 to quit: 95
+## Sorry no match
+##
+## Enter your lottery pick ( 2 digits) or -999 to quit: -999
+
+## Test Run 3
+## Enter your lottery pick (2 digits) or -999 to quit: 10
+## Sorry no match
+##
+## Enter your lottery pick ( 2 digits) or -999 to quit: 33
+## Sorry no match
+##
+## Enter your lottery pick ( 2 digits) or -999 to quit: 46
+## Match one digit: You win $1,000
+##
+## Enter your lottery pick ( 2 digits) or -999 to quit: 81
+## Match one digit: You win $1,000
+##
+## Enter your lottery pick ( 2 digits) or -999 to quit: 88
+## Sorry no match
+##
+## Enter your lottery pick ( 2 digits) or -999 to quit: -999
+
+## Test Run 4
+## Enter your lottery pick (2 digits) or -999 to quit: 15
+## Match one digit: You win $1,000
+##
+## Enter your lottery pick ( 2 digits) or -999 to quit: 21
+## Match all digits: You win $3,000
+##
+## Enter your lottery pick ( 2 digits) or -999 to quit: 48
+## Sorry no match
+##
+## Enter your lottery pick ( 2 digits) or -999 to quit: 62
+## Sorry no match
+##
+## Enter your lottery pick ( 2 digits) or -999 to quit: 92
+## Sorry no match
+##
+## Enter your lottery pick ( 2 digits) or -999 to quit: -999
+
+## Test Run 5
+## Enter your lottery pick (2 digits) or -999 to quit: 99
+## Sorry no match
+##
+## Enter your lottery pick ( 2 digits) or -999 to quit: 49
+## Sorry no match
+##
+## Enter your lottery pick ( 2 digits) or -999 to quit: 42
+## Sorry no match
+##
+## Enter your lottery pick ( 2 digits) or -999 to quit: 38
+## Match one digit: You win $1,000
+##
+## Enter your lottery pick ( 2 digits) or -999 to quit: 50
+## Match one digit: You win $1,000
+##
+## Enter your lottery pick ( 2 digits) or -999 to quit: -999
