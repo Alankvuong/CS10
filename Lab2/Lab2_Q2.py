@@ -12,7 +12,7 @@ if(num_input % 2 == 0):
 else:
     odd_or_even = False
 
-#User input
+#User output
 if(odd_or_even == True):
     print(str(num_input) + " is even")
 else:
