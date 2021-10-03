@@ -1,15 +1,16 @@
-#Lab2 Question 3
+#Lab2 Question 4
 #Alan Vuong
-#Description of Program: This program prints an x number of horizontal asterisks depending on the user input. This input will always be an int.  
+#Description of Program: This program accepts a single character as user input and checks whether it is a number(0-9) or a character. If it is a character, determine whether it is uppercase or lowercase. If it is a number, display "A number was entered".
 
 #Input data by user
-num_asterisks = int(input("How many stars you want? "))
+user_input = input("Enter any character: ")
 
 #Calculations
-i = 0
+if user_input.isdigit() == True:
+    print("A number was entered")
+elif user_input.isupper() == True:
+    print("Uppercase character was entered")
+else:
+    print("Lowercase character was entered")
 
-while i < num_asterisks :
-    print('*', sep=' ', end='', flush=True)
-    i = i + 1
-
-##Test Run 1 for Q2
+##Test Run 1 for Q4
