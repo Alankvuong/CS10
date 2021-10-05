@@ -18,4 +18,14 @@ if(odd_or_even == True):
 else:
     print(str(num_input) + " is odd")
 
-##Test Run 1 for Q2
+## Test Run 1 for Q2
+## Enter any number: 125
+## 125 is odd
+## 
+## Test Run 2 for Q2
+## Enter any number: 12
+## 12 is even
+## 
+## Test Run 3 for Q2
+## Enter any number: 891
+## 891 is odd

@@ -7,21 +7,21 @@ char_input = input("Enter any character: ")
 isVowel = bool
 
 #Constants
-lower_a = 'a'
-lower_e = 'e'
-lower_i = 'i'
-lower_o = 'o'
-lower_u = 'u'
-upper_a = 'A'
-upper_e = 'E'
-upper_i = 'I'
-upper_o = 'O'
-upper_u = 'U'
+LOWER_A = 'a'
+LOWER_E = 'e'
+LOWER_I = 'i'
+LOWER_O = 'o'
+LOWER_U = 'u'
+UPPER_A = 'A'
+UPPER_E = 'E'
+UPPER_I = 'I'
+UPPER_O = 'O'
+UPPER_U = 'U'
 
-#Calculation
-if (char_input == lower_a or char_input == lower_e or char_input == lower_i or char_input == lower_o or char_input == lower_u):
+#Processing
+if (char_input == LOWER_A or char_input == LOWER_E or char_input == LOWER_I or char_input == LOWER_O or char_input == LOWER_U):
     isVowel = True
-elif(char_input == upper_a or char_input == upper_e or char_input == upper_i or char_input == upper_o or char_input == upper_u):
+elif(char_input == UPPER_A or char_input == UPPER_E or char_input == UPPER_I or char_input == UPPER_O or char_input == UPPER_U):
     isVowel = True
 else:
     isVowel = False
@@ -32,4 +32,15 @@ if(isVowel == True):
 else:
     print(char_input + " is not a vowel")
 
-##Test Run 1 for Q3
+
+## Test Run 1 for Q3
+## Enter any character: h
+## h is not a vowel
+## 
+## Test Run 2 for Q3
+## Enter any character: e
+## e is a vowel
+## 
+## Test Run 3 for Q3
+## Enter any character: k
+## k is not a vowel

@@ -5,11 +5,20 @@
 #Input data by user
 num_asterisks = int(input("How many stars you want? "))
 
-#Calculations
+# Processing
 i = 0
-
 while i < num_asterisks :
-    print('*', sep=' ', end='', flush=True)
+    print('*', end='')
     i = i + 1
 
-##Test Run 1 for Q5
+## Test Run 1 for Q5
+## How many stars you want? 20
+## ********************
+## 
+## Test Run 2 for Q5
+## How many stars you want? 10
+## **********
+## 
+## Test Run 3 for Q5
+## How many stars you want? 2
+## **
