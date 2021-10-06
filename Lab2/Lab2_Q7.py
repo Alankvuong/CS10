@@ -31,7 +31,7 @@ while add_item == 'Y' or add_item == 'y':
 ## ERROR: the cost cannot be negative
 ## Enter the correct wholesale cost: .50
 ## Retail price is $1.25
-## Do you have another item? (Enter y for yes): nz
+## Do you have another item? (Enter y for yes): n
 
 ## Test Run 2 for Q7
 ## Enter the item's wholesale cost: .75

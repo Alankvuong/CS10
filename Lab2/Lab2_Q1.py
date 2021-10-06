@@ -5,7 +5,7 @@
 #Input data by user
 user_age = int(input("Enter the age: "))
 
-#Calculations and User Output
+#Calculations to find vote eligibility and User Output
 if user_age < 18:
     years_remaining = 18 - user_age
     print("You have to wait another " + str(years_remaining) + " years to cast your vote")

@@ -6,15 +6,15 @@
 user_input = input("Enter any character: ")
 
 #Constants
-upperchar_first = 'A'
-upperchar_last = 'Z'
-lowerchar_first = 'a'
-lowerchar_last = 'z'
+UPPER_FIRST = 'A'
+UPPER_LAST = 'Z'
+LOWER_FIRST = 'a'
+LOWER_LAST = 'z'
 
 #Processing
-if user_input >= upperchar_first and user_input <= upperchar_last:
+if user_input >= UPPER_FIRST and user_input <= UPPER_LAST:
     print("Uppercase character was entered")
-elif user_input >= lowerchar_first and user_input <= lowerchar_last:
+elif user_input >= LOWER_FIRST and user_input <= LOWER_LAST:
     print("Lowercase character was entered")
 else:
     print("A number was entered")

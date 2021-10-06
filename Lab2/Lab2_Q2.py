@@ -6,13 +6,13 @@
 num_input = int(input("Enter any number: "))
 odd_or_even = bool
 
-#Calculations
+#Calculation to find if even or odd
 if(num_input % 2 == 0):
     odd_or_even = True
 else:
     odd_or_even = False
 
-#User output
+#User output, using if/else
 if(odd_or_even == True):
     print(str(num_input) + " is even")
 else:

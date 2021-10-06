@@ -18,7 +18,7 @@ UPPER_I = 'I'
 UPPER_O = 'O'
 UPPER_U = 'U'
 
-#Processing
+#Processing, checking to see if uppercase or lowercase vowel
 if (char_input == LOWER_A or char_input == LOWER_E or char_input == LOWER_I or char_input == LOWER_O or char_input == LOWER_U):
     isVowel = True
 elif(char_input == UPPER_A or char_input == UPPER_E or char_input == UPPER_I or char_input == UPPER_O or char_input == UPPER_U):
