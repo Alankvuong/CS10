@@ -471,7 +471,7 @@ while userIncome >= 0:
 ## 2017 tax: 120953.65
 ## 2018 tax: 121577.90
 ## Difference: 624.25
-## Difference (percent): -0.52
+## Difference (percent): 0.52
 
 ## Enter income as an integer with no commas: -1
 
