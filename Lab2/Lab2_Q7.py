@@ -25,7 +25,6 @@ while add_item == 'Y' or add_item == 'y':
 	add_item = input("Do you have another item? (Enter y for yes): ")
 
 
-
 ##Test Run 1 for Q7
 ## Enter the item's wholesale cost: -.50
 ## ERROR: the cost cannot be negative

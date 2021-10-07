@@ -1,6 +1,6 @@
 #Lab2 Question 8
 #Alan Vuong
-#Description of Program: This program uses the range() function for a for loop to print "Barazinger" 5 times.
+#Description of Program: This program uses the range() function for a for loop to print "Barzinger" 5 times.
 
 # Processing
 for i in range(0, 5):

@@ -6,8 +6,6 @@
 
 #Constants
 CONVERSION_FACTOR = 0.6214
-#Initializing variable
-sum_numbers = 0
 
 #User output
 print(format("KPH", '17') + "MPH")

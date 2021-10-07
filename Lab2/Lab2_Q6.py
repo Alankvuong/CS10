@@ -23,7 +23,7 @@ while lot_num != -999:
     print("\nEnter the property lot number or enter -999 to end")
     lot_num = int(input("Enter the lot number: "))
 
-##Test Run 1 for Q6
+## Test Run 1 for Q6
 ## Enter the property lot number or enter -999 to end
 ## Enter the lot number: 100
 ## Enter property value: 100000.00
