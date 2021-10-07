@@ -8,7 +8,7 @@
 #input
 userIncome = int(input("Enter income as an integer with no commas: "))
 
-#Calculations
+#Processing/Calculations
 taxed_userIncome = None
 difference = None
 percent_difference = None
@@ -33,7 +33,7 @@ while userIncome >= 0:
 		taxSum_2017 += taxed_userIncome							# Adds taxed amount to a variable
 		newUserIncome -= secondBracket_userIncome				# Subtracts the original income from the range of bracket
 	elif userIncome >= 37951 and userIncome <= 91900:
-		newUserIncome = userIncome				# Sets newUserIncome as a placeholder for original userIncome
+		newUserIncome = userIncome								# Sets newUserIncome as a placeholder for original userIncome
 		firstBracket_userIncome = 9325						
 		taxed_userIncome = firstBracket_userIncome * 0.10		# Find the amount taxed based on range of bracket
 		taxSum_2017 += taxed_userIncome							# Add taxed amount to a storage variable
@@ -54,7 +54,7 @@ while userIncome >= 0:
 		#3) Add the found value (the taxed amount) to a variable
 		#4) Subtract the range from the original income amount
 
-		newUserIncome = userIncome				# Sets newUserIncome as a placeholder for original userIncome
+		newUserIncome = userIncome								# Sets newUserIncome as a placeholder for original userIncome
 		firstBracket_userIncome = 9325						
 		taxed_userIncome = firstBracket_userIncome * 0.10		# Find the amount taxed based on range of bracket
 		taxSum_2017 += taxed_userIncome							# Add taxed amount to a storage variable
@@ -75,7 +75,7 @@ while userIncome >= 0:
 		taxSum_2017 += taxed_userIncome
 		newUserIncome -= fourthBracket_userIncome
 	elif userIncome >= 191651 and userIncome <= 416700	:
-		newUserIncome = userIncome				# Sets newUserIncome as a placeholder for original userIncome
+		newUserIncome = userIncome								# Sets newUserIncome as a placeholder for original userIncome
 		firstBracket_userIncome = 9325						
 		taxed_userIncome = firstBracket_userIncome * 0.10		# Find the amount taxed based on range of bracket
 		taxSum_2017 += taxed_userIncome							# Add taxed amount to a storage variable
@@ -101,7 +101,7 @@ while userIncome >= 0:
 		taxSum_2017 += taxed_userIncome
 		newUserIncome -= fifthBracket_userIncome
 	elif userIncome >= 416701 and userIncome <= 418400	:
-		newUserIncome = userIncome				# Sets newUserIncome as a placeholder for original userIncome
+		newUserIncome = userIncome								# Sets newUserIncome as a placeholder for original userIncome
 		firstBracket_userIncome = 9325						
 		taxed_userIncome = firstBracket_userIncome * 0.10		# Find the amount taxed based on range of bracket
 		taxSum_2017 += taxed_userIncome							# Add taxed amount to a storage variable
@@ -132,7 +132,7 @@ while userIncome >= 0:
 		taxSum_2017 += taxed_userIncome
 		newUserIncome -= sixthBracket_userIncome
 	elif userIncome > 418400:
-		newUserIncome = userIncome				# Sets newUserIncome as a placeholder for original userIncome
+		newUserIncome = userIncome								# Sets newUserIncome as a placeholder for original userIncome
 		firstBracket_userIncome = 9325						
 		taxed_userIncome = firstBracket_userIncome * 0.10		# Find the amount taxed based on range of bracket
 		taxSum_2017 += taxed_userIncome							# Add taxed amount to a storage variable
@@ -174,7 +174,7 @@ while userIncome >= 0:
 		taxed_userIncome = firstBracket_userIncome * 0.10		# Find the amount taxed based on range of bracket
 		taxSum_2018 += taxed_userIncome							# Add taxed amount to a storage variable
 	elif userIncome >= 9526 and userIncome <= 38700:
-		newUserIncome = userIncome				# Sets newUserIncome as a placeholder for original userIncome
+		newUserIncome = userIncome								# Sets newUserIncome as a placeholder for original userIncome
 		firstBracket_userIncome = 9525						
 		taxed_userIncome = firstBracket_userIncome * 0.10		# Find the amount taxed based on range of bracket
 		taxSum_2018 += taxed_userIncome							# Add taxed amount to a storage variable
@@ -185,7 +185,7 @@ while userIncome >= 0:
 		taxSum_2018 += taxed_userIncome
 		newUserIncome -= secondBracket_userIncome
 	elif userIncome >= 38701 and userIncome <= 82500:
-		newUserIncome = userIncome				# Sets newUserIncome as a placeholder for original userIncome
+		newUserIncome = userIncome								# Sets newUserIncome as a placeholder for original userIncome
 		firstBracket_userIncome = 9525						
 		taxed_userIncome = firstBracket_userIncome * 0.10		# Find the amount taxed based on range of bracket
 		taxSum_2018 += taxed_userIncome							# Add taxed amount to a storage variable
@@ -206,7 +206,7 @@ while userIncome >= 0:
 		#3) Add the found value (the taxed amount) to a variable
 		#4) Subtract the range from the original income amount
 
-		newUserIncome = userIncome				# Sets newUserIncome as a placeholder for original userIncome
+		newUserIncome = userIncome								# Sets newUserIncome as a placeholder for original userIncome
 		firstBracket_userIncome = 9525						
 		taxed_userIncome = firstBracket_userIncome * 0.10		# Find the amount taxed based on range of bracket
 		taxSum_2018 += taxed_userIncome							# Add taxed amount to a storage variable
@@ -227,7 +227,7 @@ while userIncome >= 0:
 		taxSum_2018 += taxed_userIncome
 		newUserIncome -= fourthBracket_userIncome
 	elif userIncome >= 157501 and userIncome <= 200000:
-		newUserIncome = userIncome				# Sets newUserIncome as a placeholder for original userIncome
+		newUserIncome = userIncome								# Sets newUserIncome as a placeholder for original userIncome
 		firstBracket_userIncome = 9525						
 		taxed_userIncome = firstBracket_userIncome * 0.10		# Find the amount taxed based on range of bracket
 		taxSum_2018 += taxed_userIncome							# Add taxed amount to a storage variable
@@ -253,7 +253,7 @@ while userIncome >= 0:
 		taxSum_2018 += taxed_userIncome
 		newUserIncome -= fourthBracket_userIncome
 	elif userIncome >= 200001 and userIncome <= 500000:
-		newUserIncome = userIncome				# Sets newUserIncome as a placeholder for original userIncome
+		newUserIncome = userIncome								# Sets newUserIncome as a placeholder for original userIncome
 		firstBracket_userIncome = 9525						
 		taxed_userIncome = firstBracket_userIncome * 0.10		# Find the amount taxed based on range of bracket
 		taxSum_2018 += taxed_userIncome							# Add taxed amount to a storage variable
@@ -284,7 +284,7 @@ while userIncome >= 0:
 		taxSum_2018 += taxed_userIncome
 		newUserIncome -= fifthBracket_userIncome
 	elif userIncome > 500000:
-		newUserIncome = userIncome				# Sets newUserIncome as a placeholder for original userIncome
+		newUserIncome = userIncome								# Sets newUserIncome as a placeholder for original userIncome
 		firstBracket_userIncome = 9525						
 		taxed_userIncome = firstBracket_userIncome * 0.10		# Find the amount taxed based on range of bracket
 		taxSum_2018 += taxed_userIncome							# Add taxed amount to a storage variable
@@ -321,10 +321,10 @@ while userIncome >= 0:
 		newUserIncome -= sixthBracket_userIncome
 
 	difference = taxSum_2018 - taxSum_2017										# Finds the difference between the two years
-	percent_difference = ((taxSum_2018 - taxSum_2017) / taxSum_2017) * -100		# Finds the percent difference, multiply by negative 
-
-	if(percent_difference == 0):						# 0 cannot be a negative number
-		percent_difference = 0
+	percent_difference = ((taxSum_2018 - taxSum_2017) / taxSum_2017) * 100		# Finds the percent difference, multiply by negative 
+	
+	if percent_difference < 0:
+		percent_difference = percent_difference * -1
 
 	#User Output
 	print("Income: " + str(userIncome))
@@ -335,7 +335,8 @@ while userIncome >= 0:
 
 	userIncome = int(input("\nEnter income as an integer with no commas: "))
 
-	# reinitialzing used variables to empty variable
+	# reinitialzing used variables to empty variable 
+	# for next loop iteration 
 	taxed_userIncome = None
 	difference = None
 	percent_difference = None
