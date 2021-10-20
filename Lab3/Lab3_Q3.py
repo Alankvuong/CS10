@@ -38,17 +38,17 @@ def main():
 if __name__ == "__main__":
 	main()
 
-## Test Run 1 for Q2
+## Test Run 1 for Q3
 # Enter the base of your triangle: 10
 # Enter the height of your triangle: 5
 # The base, height, and area are 10.00 , 5.00 , 25.00
 
-## Test Run 2 for Q1
+## Test Run 2 for Q3
 # Enter the base of your triangle: 2
 # Enter the height of your triangle: 3
 # The base, height, and area are 2.00 , 3.00 , 3.00
 
-## Test Run 3 for Q1
+## Test Run 3 for Q3
 # Enter the base of your triangle: 4
 # Enter the height of your triangle: 8
 # The base, height, and area are 4.00 , 8.00 , 16.00

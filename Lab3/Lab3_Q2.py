@@ -27,8 +27,8 @@ if __name__ == "__main__":
 ## Test Run 1 for Q2
 # The simple interest will be $1,000.00
 
-## Test Run 2 for Q1
+## Test Run 2 for Q2
 # The simple interest will be $1,000.00
 
-## Test Run 3 for Q1
+## Test Run 3 for Q2
 # The simple interest will be $1,000.00
