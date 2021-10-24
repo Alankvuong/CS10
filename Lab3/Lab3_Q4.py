@@ -1,4 +1,4 @@
-#Lab3 Question 4
+#Lab 3 Question 4
 #Alan Vuong
 #Description of Program: This program calculates the total pay after commission from using the total sales and advanced pay. The commission varies by the amount of sales.
 

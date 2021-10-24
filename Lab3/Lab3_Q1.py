@@ -1,4 +1,4 @@
-#Lab3 Question 1
+#Lab 3 Question 1
 #Alan Vuong
 #Description of Program: This program has a main function that calls two other functions: texas() and california(). Each function has a local variable named birds that is isolated to the function scope, which will be printed respectively.
 

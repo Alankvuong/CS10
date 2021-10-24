@@ -1,4 +1,4 @@
-#Lab3 Question 5
+#Lab 3 Question 5
 #Alan Vuong
 #Description of Program: This program asks the user to enter a single digit number sequentially without any spaces. The number must be inputted as a string. Then display the sum of the single digit numbers in a single digit string.
 

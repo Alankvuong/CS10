@@ -1,4 +1,4 @@
-#Lab3 Question 2
+#Lab 3 Question 2
 #Alan Vuong
 #Description of Program: This program will calculate the interest of a prinipal amount within a function. The function will take in 3 parameters: rate(0.01), period(10), principal(10000.00) and will print the calculated interest.
 

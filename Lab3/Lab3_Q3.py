@@ -1,4 +1,4 @@
-#Lab3 Question 3
+#Lab 3 Question 3
 #Alan Vuong
 #Description of Program: This program calculates the area of a right-angled triangle using functions and parameters.
 
