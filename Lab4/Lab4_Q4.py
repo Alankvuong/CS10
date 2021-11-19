@@ -68,19 +68,19 @@ if __name__ == "__main__":
 	main()
 
 ## Test Run 1 for Q4
-# Please enter values, Q to quit:
-# 34
-# 56.7
-# 4
-# 9
-# 76.9
-# 55.4
-# Q
-
-# Here are the numnbers in the list
-# 34
-# 56.7
-# 4
-# 9
-# 76.9 <== this is the largest number
-# 55.4
+## Please enter values, Q to quit:
+## 34
+## 56.7
+## 4
+## 9
+## 76.9
+## 55.4
+## Q
+##
+## Here are the numnbers in the list
+## 34
+## 56.7
+## 4
+## 9
+## 76.9 <== this is the largest number
+## 55.4

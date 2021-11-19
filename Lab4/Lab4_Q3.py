@@ -60,7 +60,7 @@ if __name__ == "__main__":
 
 
 ## Test Run 1 for Q3
-# Enter the values in a tuple: -10, 1, 2, -9, 3, 4, -8, 5, 6, -7
-
-# Original Tuple : (-10, 1, 2, -9, 3, 4, -8, 5, 6, -7)
-# New Tuple with Positive numbers : (6, 5, 4, 3, 2, 1)
+## Enter the values in a tuple: -10, 1, 2, -9, 3, 4, -8, 5, 6, -7
+##
+## Original Tuple : (-10, 1, 2, -9, 3, 4, -8, 5, 6, -7)
+## New Tuple with Positive numbers : (6, 5, 4, 3, 2, 1)

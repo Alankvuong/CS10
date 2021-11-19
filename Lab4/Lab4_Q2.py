@@ -55,16 +55,16 @@ if __name__ == "__main__":
 	main()
 
 ## Test Run 1 for Q2
-# Enter a number to be added to a list: 1
-# Enter a number to be added to a list: 2
-# Enter a number to be added to a list: 3
-# Enter a number to be added to a list: 4
-# Enter a number to be added to a list: 5
-# Enter a number to be added to a list: 6
-# Enter a number to be added to a list: 7
-# Enter a number to be added to a list: 6
-# Enter a number to be added to a list: 5
-# Enter a number to be added to a list: 4
-# 
-# Original List : [1, 2, 3, 4, 5, 6, 7, 6, 5, 4]
-# List after removing duplicates : [1, 2, 3, 4, 5, 6, 7]
+## Enter a number to be added to a list: 1
+## Enter a number to be added to a list: 2
+## Enter a number to be added to a list: 3
+## Enter a number to be added to a list: 4
+## Enter a number to be added to a list: 5
+## Enter a number to be added to a list: 6
+## Enter a number to be added to a list: 7
+## Enter a number to be added to a list: 6
+## Enter a number to be added to a list: 5
+## Enter a number to be added to a list: 4
+## 
+## Original List : [1, 2, 3, 4, 5, 6, 7, 6, 5, 4]
+## List after removing duplicates : [1, 2, 3, 4, 5, 6, 7]

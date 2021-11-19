@@ -46,5 +46,5 @@ if __name__ == "__main__":
 	main()
 
 ## Test Run 1 for Q1
-# Original List: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-# List after deleting even numbers: [1, 3, 5, 7, 9]
+## Original List: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+## List after deleting even numbers: [1, 3, 5, 7, 9]
