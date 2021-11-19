@@ -13,6 +13,7 @@ def makeList()->list:
 
 	return listNum
 
+
 def delEven(listNum: list)->list:
 	'''Deletes even numbers from list'''
 
@@ -21,6 +22,7 @@ def delEven(listNum: list)->list:
 			listNum.remove(i)
 	
 	return listNum
+
 
 # Main Function -- Call other functions
 def main():
@@ -35,7 +37,7 @@ def main():
 #Input data by user
 	# None
 #Processing / Calculations
-	# None
+	# Within function
 #User Output
 	# Above within function
 

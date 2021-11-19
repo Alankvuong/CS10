@@ -44,6 +44,13 @@ def main():
 	print("List after removing duplicates :", newNumList)
 
 
+#Input data by user
+	# Above within createList() function
+#Processing / Calculations
+	# Above within removeDuplicates() function
+#User Output
+	# Above within main function
+
 if __name__ == "__main__":
 	main()
 

@@ -19,6 +19,7 @@ def makeTuple()->tuple:
 
 	return tuple(int_numbersList)
 
+
 def makePositive(numbersTuple: tuple)->tuple:
 	'''Function creates a new tuple with positive numbers in descending only from tuple created in makeTuple()'''
 
@@ -35,6 +36,7 @@ def makePositive(numbersTuple: tuple)->tuple:
 
 	return positiveTuple
 
+
 # Main Function -- Call other functions
 def main():
 	numbersTuple = makeTuple()
@@ -46,15 +48,16 @@ def main():
 	
 
 #Input data by user
-	# None
-#Processing / Calculations
-	# None
-#User Output
 	# Above within function
+#Processing / Calculations
+	# Above within function
+#User Output
+	# Above within main function
 
 
 if __name__ == "__main__":
 	main()
+
 
 ## Test Run 1 for Q3
 # Enter the values in a tuple: -10, 1, 2, -9, 3, 4, -8, 5, 6, -7

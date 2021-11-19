@@ -9,6 +9,7 @@ def letterA(setOne: set, setTwo: set)->set:
 
 	return setA
 
+
 def letterB(setOne: set, setTwo: set, setThree: set)->set:
 	'''Create a new set of all elements that are in only one of the three sets set1,set2, and set3.'''
 
@@ -16,12 +17,14 @@ def letterB(setOne: set, setTwo: set, setThree: set)->set:
 
 	return setB
 
+
 def letterC(setOne: set, setTwo: set, setThree: set)->set:
 	'''Create a new set of all elements that are exactly two of the sets set1, set2, and set3'''
 
 	setC = (setOne & setTwo) | (setTwo & setThree) | (setOne & setThree)
 
 	return setC
+
 
 def letterD(setOne: set)->set:
 	'''Create a new set of all integer elements in the range 1 through 25 that are not in set1.'''
@@ -34,6 +37,7 @@ def letterD(setOne: set)->set:
 
 	return setD
 
+
 def letterE(setOne: set, setTwo: set, setThree: set)->set:
 	'''Create a new set of all integer elements in the range 1 to 25 that are not in any of the three sets set1, set2, or set3.'''
 
@@ -44,6 +48,7 @@ def letterE(setOne: set, setTwo: set, setThree: set)->set:
 	setE = tempSet - setOne - setTwo - setThree
 	
 	return setE
+
 
 def letterF(setOne: set, setTwo: set, setThree: set)->set:
 	'''Create a new set of integer elements in the range 1 to 25 that are not in all three sets set1, set2, and set3.'''
@@ -56,6 +61,7 @@ def letterF(setOne: set, setTwo: set, setThree: set)->set:
 
 	return setF
 
+
 def displaySets(setA: set, setB: set, setC: set, setD: set, setE: set, setF: set)->None:
 	'''Displays sets a-f'''
 	print("a.", setA)
@@ -64,6 +70,7 @@ def displaySets(setA: set, setB: set, setC: set, setD: set, setE: set, setF: set
 	print("d.", setD)
 	print("e.", setE)
 	print("f.", setF)
+
 
 # Main Function -- Call other functions
 def main():
@@ -82,11 +89,11 @@ def main():
 	
 
 #Input data by user
-	# Within function readValues()
+	# None
 #Processing / Calculations
 	# Within Functions
 #User Output
-	# Above within function
+	# Above within display function
 
 
 if __name__ == "__main__":

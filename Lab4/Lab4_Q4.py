@@ -15,6 +15,7 @@ def readValues()->list:
 	
 	return numList
 
+
 def findLargest(numList: list)->float:
 	'''Receives the list as a parameter and returns the largest number from the list'''
 
@@ -32,6 +33,7 @@ def findLargest(numList: list)->float:
 
 	return largestNum
 
+
 def display(numList: list, largestNum: float)->None:
 	'''This displays the list and the largest number in the list'''
 
@@ -45,6 +47,7 @@ def display(numList: list, largestNum: float)->None:
 			print(numList[i] + " <== this is the largest number")
 		else:
 			print(numList[i])
+
 
 # Main Function -- Call other functions
 def main():
