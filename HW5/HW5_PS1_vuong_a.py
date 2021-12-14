@@ -5,7 +5,7 @@
 
 class Loan:
 	#Constructor for class: allows for the program to pass data from calling the object
-	def __init__(self, interest_rate: float, years: float, loan_amount: float, name: str):
+	def __init__(self, interest_rate= 2.5, years = 1, loan_amount =  1000, name = ""):
 		self.__yearly_interest_rate = interest_rate
 		self.__years = years
 		self.__loan_amount = loan_amount
