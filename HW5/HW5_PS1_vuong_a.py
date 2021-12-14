@@ -11,30 +11,38 @@ class Loan:
 		self.__loan_amount = loan_amount
 		self.__name = name
 
-	## Getters
+	## Getters: Retrieves the data 
 	def getInterestRate(self) -> float:
+		"""Returns the yearly interest rate"""
 		return self.__yearly_interest_rate
 
 	def getYears(self) -> float:
+		"""Returns the amount of time for loan"""
 		return self.__years
 
 	def getLoanAmount(self) ->float:
+		"""Returns the loan amount"""
 		return self.__loan_amount
 	
 	def getName(self) ->str:
+		"""Returns the borrower's name"""
 		return self.__name
 
-	## Setters 
+	## Setters: Sets new data
 	def setInterestRate(self, newInterestRate: float)->float:
+		"""Sets a new interest rate"""
 		self.__yearly_interest_rate = newInterestRate
 
 	def setYears(self, newYears:float)->float:
+		"""Sets the new number of years for loan"""
 		self.__years = newYears
 	
 	def setLoanAmount(self, newLoanAmount: float)->float:
+		"""Sets a new amount for the loan"""
 		self.__loan_amount = newLoanAmount
 
 	def setName(self, newName: str)->str:
+		"""Sets a new name"""
 		self.__name = newName
 
 
